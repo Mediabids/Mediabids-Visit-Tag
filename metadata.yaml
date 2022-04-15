@@ -1,5 +1,5 @@
 ﻿homepage: "https://www.mediabids.com"
 documentation: "https://integration.mediabids.com"
 versions:
-  - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
+  - sha: d17bcb0783a7adb6cdacdde369bbbc8d2b78a661
     changeNotes: Initial release.
