@@ -3,3 +3,7 @@ documentation: "https://integration.mediabids.com"
 versions:
   - sha: d17bcb0783a7adb6cdacdde369bbbc8d2b78a661
     changeNotes: Initial release.
+  - sha: 4efdeeeab858bd7dbb598cb7b98b4a959fa33885
+    changeNotes: Added Categories ATTRIBUTION and SALES to tpl.
+
+
