@@ -11,7 +11,7 @@ ___INFO___
 {
   "displayName": "Mediabids Visit",
   "description": "This is an official Google Tag Manager template for logging a Mediabids landing page visit on the Mediabids platform.",
-  "categories": ["AFFILIATE_MARKETING" , "ADVERTISING", "CONVERSIONS", "LEAD_GENERATION", "MARKETING"],
+  "categories": ["AFFILIATE_MARKETING" , "ADVERTISING", "ATTRIBUTION", "CONVERSIONS", "LEAD_GENERATION", "MARKETING", "SALES"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
