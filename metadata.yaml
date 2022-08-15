@@ -5,5 +5,6 @@ versions:
     changeNotes: Initial release.
   - sha: 4efdeeeab858bd7dbb598cb7b98b4a959fa33885
     changeNotes: Added Categories ATTRIBUTION and SALES to tpl.
-
+  - sha: ebe6364cf85914fe3454f0a3a6f89882f6aaa965
+    changeNotes: Updated 'let' keyword to 'var.
 
