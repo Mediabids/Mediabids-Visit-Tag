@@ -39,21 +39,21 @@ const getTimestamp = require('getTimestamp');
 const encodeUriComponent = require('encodeUriComponent');
 const getQueryParameters = require('getQueryParameters');
 const setCookie = require('setCookie');
-const mbv='1.0';
+const mbv='1.1.8.15.220';
 
-let mb_campaign = getQueryParameters('mb_campaign');
-let mb_source = getQueryParameters('mb_source');
-let mb_drag = getQueryParameters('mb_drag');
-let mb_tx_id = getQueryParameters('mb_tx_id');
+var mb_campaign = getQueryParameters('mb_campaign');
+var mb_source = getQueryParameters('mb_source');
+var mb_drag = getQueryParameters('mb_drag');
+var mb_tx_id = getQueryParameters('mb_tx_id');
 if(!mb_drag)mb_drag=30;
-let extra_stuff = getQueryParameters('extra_stuff');
+var extra_stuff = getQueryParameters('extra_stuff');
 
 if (mb_campaign){
   const copts = {'domain' : 'auto','max-age' : (mb_drag*24*60*60*1000)};
   //Add set cookie stuff here. 
   setCookie('mb_campaign', mb_campaign , copts);
   if(mb_tx_id)setCookie('mb_tx_id', mb_tx_id , copts);
-  let url = 'https://mblink.it/post-back/lpa';
+  var url = 'https://mblink.it/post-back/lpa';
   url += '?mb_campaign=' + encodeUriComponent(mb_campaign); 
   if(mb_source){
       url += '&mb_source=' + encodeUriComponent(mb_source); 
